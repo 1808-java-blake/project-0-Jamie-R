@@ -1,0 +1,547 @@
+2018-08-13 13:47:26 TRACE BankLauncher:11 - trace log
+2018-08-13 13:47:26 DEBUG BankLauncher:12 - debug log
+2018-08-13 13:47:26 INFO  BankLauncher:13 - info log
+2018-08-13 13:47:26 WARN  BankLauncher:14 - warn log
+2018-08-13 13:47:26 ERROR BankLauncher:15 - error log
+2018-08-13 13:47:26 FATAL BankLauncher:16 - fatal log
+2018-08-13 13:47:26 DEBUG LoginScreen:17 - started login screen
+2018-08-13 13:47:32 TRACE LoginScreen:21 - username = register
+2018-08-13 13:47:52 DEBUG LoginScreen:17 - started login screen
+2018-08-13 14:00:35 TRACE BankLauncher:11 - trace log
+2018-08-13 14:00:35 DEBUG BankLauncher:12 - debug log
+2018-08-13 14:00:35 INFO  BankLauncher:13 - info log
+2018-08-13 14:00:35 WARN  BankLauncher:14 - warn log
+2018-08-13 14:00:35 ERROR BankLauncher:15 - error log
+2018-08-13 14:00:35 FATAL BankLauncher:16 - fatal log
+2018-08-13 14:00:35 DEBUG LoginScreen:17 - started login screen
+2018-08-13 14:00:40 TRACE LoginScreen:21 - username = register
+2018-08-13 14:01:33 DEBUG LoginScreen:17 - started login screen
+2018-08-13 14:01:42 TRACE LoginScreen:21 - username = Coyote
+2018-08-13 14:01:47 DEBUG LoginScreen:30 - received users credentials
+2018-08-13 14:01:47 INFO  LoginScreen:34 - user successfully logged in
+2018-08-13 14:32:07 TRACE BankLauncher:11 - trace log
+2018-08-13 14:32:07 DEBUG BankLauncher:12 - debug log
+2018-08-13 14:32:07 INFO  BankLauncher:13 - info log
+2018-08-13 14:32:07 WARN  BankLauncher:14 - warn log
+2018-08-13 14:32:07 ERROR BankLauncher:15 - error log
+2018-08-13 14:32:07 FATAL BankLauncher:16 - fatal log
+2018-08-13 14:32:07 DEBUG LoginScreen:17 - started login screen
+2018-08-13 14:32:11 TRACE LoginScreen:21 - username = register
+2018-08-13 14:33:25 DEBUG LoginScreen:17 - started login screen
+2018-08-13 15:37:43 TRACE BankLauncher:11 - trace log
+2018-08-13 15:37:43 DEBUG BankLauncher:12 - debug log
+2018-08-13 15:37:43 INFO  BankLauncher:13 - info log
+2018-08-13 15:37:43 WARN  BankLauncher:14 - warn log
+2018-08-13 15:37:43 ERROR BankLauncher:15 - error log
+2018-08-13 15:37:43 FATAL BankLauncher:16 - fatal log
+2018-08-13 15:37:43 DEBUG LoginScreen:17 - started login screen
+2018-08-13 15:37:47 TRACE LoginScreen:21 - username = register
+2018-08-13 15:38:38 DEBUG LoginScreen:17 - started login screen
+2018-08-13 15:38:44 TRACE LoginScreen:21 - username = BaeFettOP
+2018-08-13 15:38:47 DEBUG LoginScreen:30 - received users credentials
+2018-08-13 15:38:47 INFO  LoginScreen:34 - user successfully logged in
+2018-08-13 15:39:26 DEBUG CheckMyBalanceScreen:19 - started self balance check screen
+2018-08-13 15:39:30 DEBUG CheckMyBalanceScreen:19 - started self balance check screen
+2018-08-13 15:39:31 DEBUG CheckMyBalanceScreen:19 - started self balance check screen
+2018-08-13 15:39:33 DEBUG CheckMyBalanceScreen:19 - started self balance check screen
+2018-08-13 15:39:34 DEBUG CheckMyBalanceScreen:19 - started self balance check screen
+2018-08-13 15:39:35 DEBUG CheckMyBalanceScreen:19 - started self balance check screen
+2018-08-13 15:39:35 DEBUG CheckMyBalanceScreen:19 - started self balance check screen
+2018-08-13 15:39:36 DEBUG CheckMyBalanceScreen:19 - started self balance check screen
+2018-08-13 15:40:51 TRACE BankLauncher:11 - trace log
+2018-08-13 15:40:51 DEBUG BankLauncher:12 - debug log
+2018-08-13 15:40:51 INFO  BankLauncher:13 - info log
+2018-08-13 15:40:51 WARN  BankLauncher:14 - warn log
+2018-08-13 15:40:51 ERROR BankLauncher:15 - error log
+2018-08-13 15:40:51 FATAL BankLauncher:16 - fatal log
+2018-08-13 15:40:51 DEBUG LoginScreen:17 - started login screen
+2018-08-13 15:41:11 TRACE LoginScreen:21 - username = BaeFettOP
+2018-08-13 15:41:16 DEBUG LoginScreen:30 - received users credentials
+2018-08-13 15:41:16 INFO  LoginScreen:34 - user successfully logged in
+2018-08-13 15:41:18 DEBUG CheckMyBalanceScreen:19 - started self balance check screen
+2018-08-13 15:41:19 DEBUG CheckMyBalanceScreen:19 - started self balance check screen
+2018-08-13 15:41:20 DEBUG CheckMyBalanceScreen:19 - started self balance check screen
+2018-08-13 15:41:21 DEBUG CheckMyBalanceScreen:19 - started self balance check screen
+2018-08-13 15:41:22 DEBUG CheckMyBalanceScreen:19 - started self balance check screen
+2018-08-13 15:41:22 DEBUG CheckMyBalanceScreen:19 - started self balance check screen
+2018-08-13 15:41:23 DEBUG CheckMyBalanceScreen:19 - started self balance check screen
+2018-08-13 15:41:24 DEBUG CheckMyBalanceScreen:19 - started self balance check screen
+2018-08-13 15:42:23 TRACE BankLauncher:11 - trace log
+2018-08-13 15:42:23 DEBUG BankLauncher:12 - debug log
+2018-08-13 15:42:23 INFO  BankLauncher:13 - info log
+2018-08-13 15:42:23 WARN  BankLauncher:14 - warn log
+2018-08-13 15:42:23 ERROR BankLauncher:15 - error log
+2018-08-13 15:42:23 FATAL BankLauncher:16 - fatal log
+2018-08-13 15:42:23 DEBUG LoginScreen:17 - started login screen
+2018-08-13 15:42:33 TRACE LoginScreen:21 - username = BaeFettOP
+2018-08-13 15:42:38 DEBUG LoginScreen:30 - received users credentials
+2018-08-13 15:42:38 INFO  LoginScreen:34 - user successfully logged in
+2018-08-13 15:42:40 DEBUG CheckMyBalanceScreen:19 - started self balance check screen
+2018-08-13 15:42:46 DEBUG CheckMyBalanceScreen:19 - started self balance check screen
+2018-08-13 15:42:47 DEBUG CheckMyBalanceScreen:19 - started self balance check screen
+2018-08-13 15:42:48 DEBUG CheckMyBalanceScreen:19 - started self balance check screen
+2018-08-13 15:43:11 DEBUG CheckMyBalanceScreen:19 - started self balance check screen
+2018-08-13 15:43:15 DEBUG CheckMyBalanceScreen:19 - started self balance check screen
+2018-08-13 15:43:25 DEBUG CheckMyBalanceScreen:19 - started self balance check screen
+2018-08-13 15:47:57 TRACE BankLauncher:11 - trace log
+2018-08-13 15:47:57 DEBUG BankLauncher:12 - debug log
+2018-08-13 15:47:57 INFO  BankLauncher:13 - info log
+2018-08-13 15:47:57 WARN  BankLauncher:14 - warn log
+2018-08-13 15:47:57 ERROR BankLauncher:15 - error log
+2018-08-13 15:47:57 FATAL BankLauncher:16 - fatal log
+2018-08-13 15:47:57 DEBUG LoginScreen:17 - started login screen
+2018-08-13 15:48:03 TRACE LoginScreen:21 - username = Coyote
+2018-08-13 15:48:04 DEBUG LoginScreen:30 - received users credentials
+2018-08-13 15:48:04 INFO  LoginScreen:34 - user successfully logged in
+2018-08-13 15:48:07 DEBUG LoginScreen:17 - started login screen
+2018-08-13 15:48:14 TRACE LoginScreen:21 - username = BaeFettOp
+2018-08-13 15:48:19 DEBUG LoginScreen:30 - received users credentials
+2018-08-13 15:48:19 INFO  LoginScreen:34 - user successfully logged in
+2018-08-13 15:48:27 DEBUG CheckMyBalanceScreen:17 - started self balance check screen
+2018-08-13 15:48:33 DEBUG LoginScreen:17 - started login screen
+2018-08-13 15:48:36 TRACE LoginScreen:21 - username = Coyote
+2018-08-13 15:48:37 DEBUG LoginScreen:30 - received users credentials
+2018-08-13 15:48:37 INFO  LoginScreen:34 - user successfully logged in
+2018-08-13 15:48:38 DEBUG CheckMyBalanceScreen:17 - started self balance check screen
+2018-08-13 15:48:48 DEBUG LoginScreen:17 - started login screen
+2018-08-13 16:28:06 TRACE BankLauncher:11 - trace log
+2018-08-13 16:28:06 DEBUG BankLauncher:12 - debug log
+2018-08-13 16:28:06 INFO  BankLauncher:13 - info log
+2018-08-13 16:28:06 WARN  BankLauncher:14 - warn log
+2018-08-13 16:28:06 ERROR BankLauncher:15 - error log
+2018-08-13 16:28:06 FATAL BankLauncher:16 - fatal log
+2018-08-13 16:28:06 DEBUG LoginScreen:15 - started login screen
+2018-08-13 16:28:14 TRACE LoginScreen:19 - username = BaeFettOP
+2018-08-13 16:28:17 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 16:28:17 INFO  LoginScreen:32 - user successfully logged in
+2018-08-13 16:28:20 DEBUG CheckMyBalanceScreen:17 - started self balance check screen
+2018-08-13 16:28:22 DEBUG CheckMyBalanceScreen:17 - started self balance check screen
+2018-08-13 16:28:38 DEBUG DepositScreen:17 - started deposit screen
+2018-08-13 16:28:54 TRACE BankLauncher:11 - trace log
+2018-08-13 16:28:54 DEBUG BankLauncher:12 - debug log
+2018-08-13 16:28:54 INFO  BankLauncher:13 - info log
+2018-08-13 16:28:54 WARN  BankLauncher:14 - warn log
+2018-08-13 16:28:54 ERROR BankLauncher:15 - error log
+2018-08-13 16:28:54 FATAL BankLauncher:16 - fatal log
+2018-08-13 16:28:54 DEBUG LoginScreen:15 - started login screen
+2018-08-13 16:29:08 TRACE LoginScreen:19 - username = BaeFettOP
+2018-08-13 16:29:11 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 16:29:11 INFO  LoginScreen:32 - user successfully logged in
+2018-08-13 18:24:20 DEBUG LoginScreen:15 - started login screen
+2018-08-13 18:34:16 TRACE BankLauncher:11 - trace log
+2018-08-13 18:34:16 DEBUG BankLauncher:12 - debug log
+2018-08-13 18:34:16 INFO  BankLauncher:13 - info log
+2018-08-13 18:34:16 WARN  BankLauncher:14 - warn log
+2018-08-13 18:34:16 ERROR BankLauncher:15 - error log
+2018-08-13 18:34:16 FATAL BankLauncher:16 - fatal log
+2018-08-13 18:34:16 DEBUG LoginScreen:15 - started login screen
+2018-08-13 18:34:21 TRACE LoginScreen:19 - username = BaeFettOP
+2018-08-13 18:34:25 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 18:34:25 INFO  LoginScreen:32 - user successfully logged in
+2018-08-13 18:34:32 DEBUG DepositScreen:17 - started deposit screen
+2018-08-13 18:35:07 DEBUG DepositScreen:17 - started deposit screen
+2018-08-13 18:35:23 DEBUG DepositScreen:17 - started deposit screen
+2018-08-13 18:37:40 TRACE BankLauncher:11 - trace log
+2018-08-13 18:37:40 DEBUG BankLauncher:12 - debug log
+2018-08-13 18:37:40 INFO  BankLauncher:13 - info log
+2018-08-13 18:37:40 WARN  BankLauncher:14 - warn log
+2018-08-13 18:37:40 ERROR BankLauncher:15 - error log
+2018-08-13 18:37:40 FATAL BankLauncher:16 - fatal log
+2018-08-13 18:37:40 DEBUG LoginScreen:15 - started login screen
+2018-08-13 18:37:45 TRACE LoginScreen:19 - username = BaeFettOP
+2018-08-13 18:37:48 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 18:37:48 INFO  LoginScreen:32 - user successfully logged in
+2018-08-13 18:37:51 DEBUG DepositScreen:17 - started deposit screen
+2018-08-13 18:37:54 DEBUG DepositScreen:17 - started deposit screen
+2018-08-13 18:37:58 DEBUG DepositScreen:17 - started deposit screen
+2018-08-13 18:38:06 DEBUG CheckMyBalanceScreen:17 - started self balance check screen
+2018-08-13 18:38:11 DEBUG LoginScreen:15 - started login screen
+2018-08-13 18:38:17 TRACE LoginScreen:19 - username = BaeFettOP
+2018-08-13 18:38:20 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 18:38:20 INFO  LoginScreen:32 - user successfully logged in
+2018-08-13 18:38:22 DEBUG CheckMyBalanceScreen:17 - started self balance check screen
+2018-08-13 18:38:29 DEBUG LoginScreen:15 - started login screen
+2018-08-13 19:03:39 TRACE BankLauncher:11 - trace log
+2018-08-13 19:03:39 DEBUG BankLauncher:12 - debug log
+2018-08-13 19:03:39 INFO  BankLauncher:13 - info log
+2018-08-13 19:03:39 WARN  BankLauncher:14 - warn log
+2018-08-13 19:03:39 ERROR BankLauncher:15 - error log
+2018-08-13 19:03:39 FATAL BankLauncher:16 - fatal log
+2018-08-13 19:03:39 DEBUG LoginScreen:15 - started login screen
+2018-08-13 19:03:53 TRACE LoginScreen:19 - username = BaeFettOP
+2018-08-13 19:04:04 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 19:04:04 INFO  LoginScreen:32 - user successfully logged in
+2018-08-13 19:04:06 DEBUG CheckMyBalanceScreen:17 - started self balance check screen
+2018-08-13 19:04:13 DEBUG DepositScreen:19 - started deposit screen
+2018-08-13 19:04:18 DEBUG DepositScreen:19 - started deposit screen
+2018-08-13 19:04:58 DEBUG DepositScreen:19 - started deposit screen
+2018-08-13 19:05:03 DEBUG CheckMyBalanceScreen:17 - started self balance check screen
+2018-08-13 19:05:06 DEBUG LoginScreen:15 - started login screen
+2018-08-13 19:05:11 TRACE LoginScreen:19 - username = BaeFettOP
+2018-08-13 19:05:13 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 19:05:13 INFO  LoginScreen:32 - user successfully logged in
+2018-08-13 19:05:15 DEBUG CheckMyBalanceScreen:17 - started self balance check screen
+2018-08-13 19:05:20 DEBUG LoginScreen:15 - started login screen
+2018-08-13 19:05:25 TRACE BankLauncher:11 - trace log
+2018-08-13 19:05:25 DEBUG BankLauncher:12 - debug log
+2018-08-13 19:05:25 INFO  BankLauncher:13 - info log
+2018-08-13 19:05:25 WARN  BankLauncher:14 - warn log
+2018-08-13 19:05:25 ERROR BankLauncher:15 - error log
+2018-08-13 19:05:25 FATAL BankLauncher:16 - fatal log
+2018-08-13 19:05:25 DEBUG LoginScreen:15 - started login screen
+2018-08-13 19:05:29 TRACE LoginScreen:19 - username = BaeFettOP
+2018-08-13 19:05:31 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 19:05:31 INFO  LoginScreen:32 - user successfully logged in
+2018-08-13 19:05:32 DEBUG CheckMyBalanceScreen:17 - started self balance check screen
+2018-08-13 19:05:36 DEBUG LoginScreen:15 - started login screen
+2018-08-13 19:45:15 TRACE BankLauncher:11 - trace log
+2018-08-13 19:45:15 DEBUG BankLauncher:12 - debug log
+2018-08-13 19:45:15 INFO  BankLauncher:13 - info log
+2018-08-13 19:45:15 WARN  BankLauncher:14 - warn log
+2018-08-13 19:45:15 ERROR BankLauncher:15 - error log
+2018-08-13 19:45:15 FATAL BankLauncher:16 - fatal log
+2018-08-13 19:45:15 DEBUG LoginScreen:15 - started login screen
+2018-08-13 19:45:23 TRACE LoginScreen:19 - username = BaeFettOP
+2018-08-13 19:45:27 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 19:45:27 INFO  LoginScreen:32 - user successfully logged in
+2018-08-13 19:45:30 DEBUG DepositScreen:19 - started deposit screen
+2018-08-13 19:45:41 DEBUG DepositScreen:19 - started deposit screen
+2018-08-13 23:57:36 TRACE BankLauncher:11 - trace log
+2018-08-13 23:57:36 DEBUG BankLauncher:12 - debug log
+2018-08-13 23:57:36 INFO  BankLauncher:13 - info log
+2018-08-13 23:57:36 WARN  BankLauncher:14 - warn log
+2018-08-13 23:57:36 ERROR BankLauncher:15 - error log
+2018-08-13 23:57:36 FATAL BankLauncher:16 - fatal log
+2018-08-13 23:57:36 DEBUG LoginScreen:15 - started login screen
+2018-08-13 23:57:41 TRACE LoginScreen:19 - username = BaeFettOP
+2018-08-13 23:57:43 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 23:57:43 INFO  LoginScreen:32 - user successfully logged in
+2018-08-13 23:57:52 DEBUG WithdrawalScreen:19 - started withdrawal screen
+2018-08-13 23:57:57 DEBUG WithdrawalScreen:19 - started withdrawal screen
+2018-08-13 23:59:14 TRACE BankLauncher:11 - trace log
+2018-08-13 23:59:14 DEBUG BankLauncher:12 - debug log
+2018-08-13 23:59:14 INFO  BankLauncher:13 - info log
+2018-08-13 23:59:14 WARN  BankLauncher:14 - warn log
+2018-08-13 23:59:14 ERROR BankLauncher:15 - error log
+2018-08-13 23:59:14 FATAL BankLauncher:16 - fatal log
+2018-08-13 23:59:14 DEBUG LoginScreen:15 - started login screen
+2018-08-13 23:59:24 TRACE LoginScreen:19 - username = BaeFettOP
+2018-08-13 23:59:26 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 23:59:26 INFO  LoginScreen:32 - user successfully logged in
+2018-08-13 23:59:29 DEBUG TransactionHistoryScreen:17 - started transaction history screen
+2018-08-13 23:59:43 DEBUG DepositScreen:19 - started deposit screen
+2018-08-13 23:59:45 DEBUG DepositScreen:19 - started deposit screen
+2018-08-13 23:59:51 DEBUG WithdrawalScreen:19 - started withdrawal screen
+2018-08-14 00:00:09 DEBUG WithdrawalScreen:19 - started withdrawal screen
+2018-08-14 00:00:14 DEBUG TransactionHistoryScreen:17 - started transaction history screen
+2018-08-14 00:06:50 TRACE BankLauncher:11 - trace log
+2018-08-14 00:06:50 DEBUG BankLauncher:12 - debug log
+2018-08-14 00:06:50 INFO  BankLauncher:13 - info log
+2018-08-14 00:06:50 WARN  BankLauncher:14 - warn log
+2018-08-14 00:06:50 ERROR BankLauncher:15 - error log
+2018-08-14 00:06:50 FATAL BankLauncher:16 - fatal log
+2018-08-14 00:06:50 DEBUG LoginScreen:15 - started login screen
+2018-08-14 00:06:54 TRACE LoginScreen:19 - username = BaeFettOP
+2018-08-14 00:07:27 DEBUG LoginScreen:28 - received users credentials
+2018-08-14 00:07:27 INFO  LoginScreen:32 - user successfully logged in
+2018-08-14 00:07:30 DEBUG WithdrawalScreen:19 - started withdrawal screen
+2018-08-14 00:07:36 DEBUG WithdrawalScreen:19 - started withdrawal screen
+2018-08-14 00:07:40 DEBUG TransactionHistoryScreen:18 - started transaction history screen
+2018-08-14 13:24:54 TRACE BankLauncher:11 - trace log
+2018-08-14 13:24:54 DEBUG BankLauncher:12 - debug log
+2018-08-14 13:24:54 INFO  BankLauncher:13 - info log
+2018-08-14 13:24:54 WARN  BankLauncher:14 - warn log
+2018-08-14 13:24:54 ERROR BankLauncher:15 - error log
+2018-08-14 13:24:54 FATAL BankLauncher:16 - fatal log
+2018-08-14 13:24:54 DEBUG LoginScreen:15 - started login screen
+2018-08-14 13:27:09 TRACE BankLauncher:11 - trace log
+2018-08-14 13:27:09 DEBUG BankLauncher:12 - debug log
+2018-08-14 13:27:09 INFO  BankLauncher:13 - info log
+2018-08-14 13:27:09 WARN  BankLauncher:14 - warn log
+2018-08-14 13:27:09 ERROR BankLauncher:15 - error log
+2018-08-14 13:27:09 FATAL BankLauncher:16 - fatal log
+2018-08-14 13:27:09 DEBUG LoginScreen:15 - started login screen
+2018-08-14 13:27:11 TRACE LoginScreen:19 - username = Register
+2018-08-14 13:31:58 TRACE BankLauncher:11 - trace log
+2018-08-14 13:31:58 DEBUG BankLauncher:12 - debug log
+2018-08-14 13:31:58 INFO  BankLauncher:13 - info log
+2018-08-14 13:31:58 WARN  BankLauncher:14 - warn log
+2018-08-14 13:31:58 ERROR BankLauncher:15 - error log
+2018-08-14 13:31:58 FATAL BankLauncher:16 - fatal log
+2018-08-14 13:31:58 DEBUG LoginScreen:15 - started login screen
+2018-08-14 13:32:04 TRACE LoginScreen:19 - username = register
+2018-08-14 13:33:30 DEBUG LoginScreen:15 - started login screen
+2018-08-14 16:47:17 TRACE BankLauncher:11 - trace log
+2018-08-14 16:47:17 DEBUG BankLauncher:12 - debug log
+2018-08-14 16:47:17 INFO  BankLauncher:13 - info log
+2018-08-14 16:47:17 WARN  BankLauncher:14 - warn log
+2018-08-14 16:47:17 ERROR BankLauncher:15 - error log
+2018-08-14 16:47:17 FATAL BankLauncher:16 - fatal log
+2018-08-14 16:47:17 DEBUG LoginScreen:15 - started login screen
+2018-08-14 16:47:27 TRACE LoginScreen:19 - username = register
+2018-08-14 16:50:32 DEBUG LoginScreen:15 - started login screen
+2018-08-14 16:50:37 TRACE LoginScreen:19 - username = BaeFett
+2018-08-14 16:50:40 DEBUG LoginScreen:28 - received users credentials
+2018-08-14 16:50:40 INFO  LoginScreen:32 - user successfully logged in
+2018-08-14 16:51:04 DEBUG CheckMyBalanceScreen:17 - started self balance check screen
+2018-08-14 16:51:07 DEBUG DepositScreen:19 - started deposit screen
+2018-08-14 16:51:10 DEBUG DepositScreen:19 - started deposit screen
+2018-08-14 16:51:17 DEBUG WithdrawalScreen:19 - started withdrawal screen
+2018-08-14 16:51:23 DEBUG WithdrawalScreen:19 - started withdrawal screen
+2018-08-14 16:51:27 DEBUG TransactionHistoryScreen:18 - started transaction history screen
+2018-08-14 16:51:44 DEBUG LoginScreen:15 - started login screen
+2018-08-14 16:51:46 TRACE LoginScreen:19 - username = register
+2018-08-14 16:52:28 DEBUG LoginScreen:15 - started login screen
+2018-08-14 16:52:35 TRACE BankLauncher:11 - trace log
+2018-08-14 16:52:35 DEBUG BankLauncher:12 - debug log
+2018-08-14 16:52:35 INFO  BankLauncher:13 - info log
+2018-08-14 16:52:35 WARN  BankLauncher:14 - warn log
+2018-08-14 16:52:35 ERROR BankLauncher:15 - error log
+2018-08-14 16:52:35 FATAL BankLauncher:16 - fatal log
+2018-08-14 16:52:35 DEBUG LoginScreen:15 - started login screen
+2018-08-14 16:52:40 TRACE LoginScreen:19 - username = BaeFett
+2018-08-14 16:52:42 DEBUG LoginScreen:28 - received users credentials
+2018-08-14 16:52:42 INFO  LoginScreen:32 - user successfully logged in
+2018-08-14 16:52:44 DEBUG TransactionHistoryScreen:18 - started transaction history screen
+2018-08-14 16:52:57 DEBUG LoginScreen:15 - started login screen
+2018-08-14 16:53:03 TRACE LoginScreen:19 - username = HiredGoon1
+2018-08-14 16:53:04 DEBUG LoginScreen:28 - received users credentials
+2018-08-14 16:53:04 INFO  LoginScreen:32 - user successfully logged in
+2018-08-14 16:53:07 DEBUG WithdrawalScreen:19 - started withdrawal screen
+2018-08-14 16:53:08 DEBUG WithdrawalScreen:19 - started withdrawal screen
+2018-08-14 16:53:13 DEBUG TransactionHistoryScreen:18 - started transaction history screen
+2018-08-14 16:53:16 DEBUG LoginScreen:15 - started login screen
+2018-08-14 16:53:20 TRACE LoginScreen:19 - username = DankLord
+2018-08-14 16:53:24 DEBUG LoginScreen:28 - received users credentials
+2018-08-14 16:53:24 INFO  LoginScreen:32 - user successfully logged in
+2018-08-14 16:53:40 DEBUG CheckMyBalanceScreen:17 - started self balance check screen
+2018-08-14 16:56:01 TRACE BankLauncher:11 - trace log
+2018-08-14 16:56:01 DEBUG BankLauncher:12 - debug log
+2018-08-14 16:56:01 INFO  BankLauncher:13 - info log
+2018-08-14 16:56:01 WARN  BankLauncher:14 - warn log
+2018-08-14 16:56:01 ERROR BankLauncher:15 - error log
+2018-08-14 16:56:01 FATAL BankLauncher:16 - fatal log
+2018-08-14 16:56:01 DEBUG LoginScreen:15 - started login screen
+2018-08-14 16:56:08 TRACE LoginScreen:19 - username = DankLord
+2018-08-14 16:56:11 DEBUG LoginScreen:28 - received users credentials
+2018-08-14 16:56:11 INFO  LoginScreen:32 - user successfully logged in
+2018-08-14 19:37:42 TRACE BankLauncher:11 - trace log
+2018-08-14 19:37:42 DEBUG BankLauncher:12 - debug log
+2018-08-14 19:37:42 INFO  BankLauncher:13 - info log
+2018-08-14 19:37:42 WARN  BankLauncher:14 - warn log
+2018-08-14 19:37:42 ERROR BankLauncher:15 - error log
+2018-08-14 19:37:42 FATAL BankLauncher:16 - fatal log
+2018-08-14 19:37:42 DEBUG LoginScreen:15 - started login screen
+2018-08-14 19:38:01 TRACE LoginScreen:19 - username = register
+2018-08-14 19:39:28 DEBUG LoginScreen:15 - started login screen
+2018-08-14 19:39:32 TRACE LoginScreen:19 - username = DankLord
+2018-08-14 19:40:53 DEBUG LoginScreen:28 - received users credentials
+2018-08-14 19:40:53 INFO  LoginScreen:32 - user successfully logged in
+2018-08-14 19:40:56 DEBUG CheckMyBalanceScreen:17 - started self balance check screen
+2018-08-14 19:40:59 DEBUG WithdrawalScreen:19 - started withdrawal screen
+2018-08-14 19:41:03 DEBUG WithdrawalScreen:19 - started withdrawal screen
+2018-08-14 19:41:07 DEBUG TransactionHistoryScreen:18 - started transaction history screen
+2018-08-14 19:41:20 DEBUG LoginScreen:15 - started login screen
+2018-08-14 19:42:18 TRACE BankLauncher:11 - trace log
+2018-08-14 19:42:18 DEBUG BankLauncher:12 - debug log
+2018-08-14 19:42:18 INFO  BankLauncher:13 - info log
+2018-08-14 19:42:18 WARN  BankLauncher:14 - warn log
+2018-08-14 19:42:18 ERROR BankLauncher:15 - error log
+2018-08-14 19:42:18 FATAL BankLauncher:16 - fatal log
+2018-08-14 19:42:18 DEBUG LoginScreen:15 - started login screen
+2018-08-14 19:42:24 TRACE LoginScreen:19 - username = Coyote
+2018-08-14 19:42:26 DEBUG LoginScreen:28 - received users credentials
+2018-08-14 19:42:26 DEBUG LoginScreen:15 - started login screen
+2018-08-14 19:42:29 TRACE LoginScreen:19 - username = register
+2018-08-14 19:43:37 DEBUG LoginScreen:15 - started login screen
+2018-08-14 19:43:41 TRACE LoginScreen:19 - username = Coyote
+2018-08-14 19:43:43 DEBUG LoginScreen:28 - received users credentials
+2018-08-14 19:43:43 DEBUG LoginScreen:15 - started login screen
+2018-08-14 19:43:46 TRACE LoginScreen:19 - username = Coyote
+2018-08-14 19:43:47 DEBUG LoginScreen:28 - received users credentials
+2018-08-14 19:43:47 INFO  LoginScreen:32 - user successfully logged in
+2018-08-14 19:43:48 DEBUG CheckMyBalanceScreen:17 - started self balance check screen
+2018-08-14 19:47:02 TRACE BankLauncher:11 - trace log
+2018-08-14 19:47:02 DEBUG BankLauncher:12 - debug log
+2018-08-14 19:47:02 INFO  BankLauncher:13 - info log
+2018-08-14 19:47:02 WARN  BankLauncher:14 - warn log
+2018-08-14 19:47:02 ERROR BankLauncher:15 - error log
+2018-08-14 19:47:02 FATAL BankLauncher:16 - fatal log
+2018-08-14 19:47:02 DEBUG LoginScreen:15 - started login screen
+2018-08-14 19:47:08 TRACE LoginScreen:19 - username = Coyote
+2018-08-14 19:47:09 DEBUG LoginScreen:28 - received users credentials
+2018-08-14 19:47:09 INFO  LoginScreen:32 - user successfully logged in
+2018-08-14 19:47:11 DEBUG CheckMyBalanceScreen:17 - started self balance check screen
+2018-08-14 19:47:19 DEBUG LoginScreen:15 - started login screen
+2018-08-14 19:49:26 TRACE BankLauncher:11 - trace log
+2018-08-14 19:49:26 DEBUG BankLauncher:12 - debug log
+2018-08-14 19:49:26 INFO  BankLauncher:13 - info log
+2018-08-14 19:49:26 WARN  BankLauncher:14 - warn log
+2018-08-14 19:49:26 ERROR BankLauncher:15 - error log
+2018-08-14 19:49:26 FATAL BankLauncher:16 - fatal log
+2018-08-14 19:49:26 DEBUG LoginScreen:15 - started login screen
+2018-08-14 19:49:31 TRACE LoginScreen:19 - username = register
+2018-08-14 19:49:46 DEBUG LoginScreen:15 - started login screen
+2018-08-14 19:49:49 TRACE LoginScreen:19 - username = Coyote
+2018-08-14 19:49:50 DEBUG LoginScreen:28 - received users credentials
+2018-08-14 19:49:50 INFO  LoginScreen:32 - user successfully logged in
+2018-08-14 19:53:09 TRACE BankLauncher:11 - trace log
+2018-08-14 19:53:09 DEBUG BankLauncher:12 - debug log
+2018-08-14 19:53:09 INFO  BankLauncher:13 - info log
+2018-08-14 19:53:09 WARN  BankLauncher:14 - warn log
+2018-08-14 19:53:09 ERROR BankLauncher:15 - error log
+2018-08-14 19:53:09 FATAL BankLauncher:16 - fatal log
+2018-08-14 19:53:09 DEBUG LoginScreen:15 - started login screen
+2018-08-14 19:55:32 TRACE LoginScreen:19 - username = register
+2018-08-14 19:55:44 DEBUG LoginScreen:15 - started login screen
+2018-08-14 19:55:46 TRACE LoginScreen:19 - username = Me
+2018-08-14 19:55:46 DEBUG LoginScreen:28 - received users credentials
+2018-08-14 19:55:46 INFO  LoginScreen:32 - user successfully logged in
+2018-08-14 19:55:49 DEBUG CheckMyBalanceScreen:17 - started self balance check screen
+2018-08-14 19:57:13 TRACE BankLauncher:11 - trace log
+2018-08-14 19:57:13 DEBUG BankLauncher:12 - debug log
+2018-08-14 19:57:13 INFO  BankLauncher:13 - info log
+2018-08-14 19:57:13 WARN  BankLauncher:14 - warn log
+2018-08-14 19:57:13 ERROR BankLauncher:15 - error log
+2018-08-14 19:57:13 FATAL BankLauncher:16 - fatal log
+2018-08-14 19:57:13 DEBUG LoginScreen:15 - started login screen
+2018-08-14 19:57:15 TRACE LoginScreen:19 - username = register
+2018-08-14 19:57:23 DEBUG LoginScreen:15 - started login screen
+2018-08-14 19:57:33 TRACE LoginScreen:19 - username = Me
+2018-08-14 19:57:33 DEBUG LoginScreen:28 - received users credentials
+2018-08-14 19:57:33 INFO  LoginScreen:32 - user successfully logged in
+2018-08-14 19:59:20 TRACE BankLauncher:11 - trace log
+2018-08-14 19:59:20 DEBUG BankLauncher:12 - debug log
+2018-08-14 19:59:20 INFO  BankLauncher:13 - info log
+2018-08-14 19:59:20 WARN  BankLauncher:14 - warn log
+2018-08-14 19:59:20 ERROR BankLauncher:15 - error log
+2018-08-14 19:59:20 FATAL BankLauncher:16 - fatal log
+2018-08-14 19:59:20 DEBUG LoginScreen:15 - started login screen
+2018-08-14 19:59:30 TRACE LoginScreen:19 - username = register
+2018-08-14 19:59:39 DEBUG LoginScreen:15 - started login screen
+2018-08-14 20:01:12 TRACE BankLauncher:11 - trace log
+2018-08-14 20:01:12 DEBUG BankLauncher:12 - debug log
+2018-08-14 20:01:12 INFO  BankLauncher:13 - info log
+2018-08-14 20:01:12 WARN  BankLauncher:14 - warn log
+2018-08-14 20:01:12 ERROR BankLauncher:15 - error log
+2018-08-14 20:01:12 FATAL BankLauncher:16 - fatal log
+2018-08-14 20:01:12 DEBUG LoginScreen:15 - started login screen
+2018-08-14 20:01:14 TRACE LoginScreen:19 - username = Me
+2018-08-14 20:01:15 DEBUG LoginScreen:28 - received users credentials
+2018-08-14 20:01:15 INFO  LoginScreen:32 - user successfully logged in
+2018-08-14 20:06:30 TRACE BankLauncher:11 - trace log
+2018-08-14 20:06:30 DEBUG BankLauncher:12 - debug log
+2018-08-14 20:06:30 INFO  BankLauncher:13 - info log
+2018-08-14 20:06:30 WARN  BankLauncher:14 - warn log
+2018-08-14 20:06:30 ERROR BankLauncher:15 - error log
+2018-08-14 20:06:30 FATAL BankLauncher:16 - fatal log
+2018-08-14 20:06:30 DEBUG LoginScreen:15 - started login screen
+2018-08-14 20:06:33 TRACE LoginScreen:19 - username = register
+2018-08-14 20:06:43 DEBUG LoginScreen:15 - started login screen
+2018-08-14 20:06:48 TRACE LoginScreen:19 - username = Me
+2018-08-14 20:06:48 DEBUG LoginScreen:28 - received users credentials
+2018-08-14 20:06:48 INFO  LoginScreen:32 - user successfully logged in
+2018-08-14 20:06:50 DEBUG CheckAnyBalanceScreen:19 - started admin balance check screen
+2018-08-14 20:09:07 TRACE BankLauncher:11 - trace log
+2018-08-14 20:09:07 DEBUG BankLauncher:12 - debug log
+2018-08-14 20:09:07 INFO  BankLauncher:13 - info log
+2018-08-14 20:09:07 WARN  BankLauncher:14 - warn log
+2018-08-14 20:09:07 ERROR BankLauncher:15 - error log
+2018-08-14 20:09:07 FATAL BankLauncher:16 - fatal log
+2018-08-14 20:09:07 DEBUG LoginScreen:15 - started login screen
+2018-08-14 20:09:10 TRACE LoginScreen:19 - username = register
+2018-08-14 20:09:19 DEBUG LoginScreen:15 - started login screen
+2018-08-14 20:09:22 TRACE LoginScreen:19 - username = Me
+2018-08-14 20:10:18 DEBUG LoginScreen:28 - received users credentials
+2018-08-14 20:10:18 INFO  LoginScreen:32 - user successfully logged in
+2018-08-14 20:10:21 DEBUG DepositScreen:19 - started deposit screen
+2018-08-14 20:10:25 DEBUG DepositScreen:19 - started deposit screen
+2018-08-14 20:10:28 DEBUG WithdrawalScreen:19 - started withdrawal screen
+2018-08-14 20:10:35 DEBUG WithdrawalScreen:19 - started withdrawal screen
+2018-08-14 20:10:41 DEBUG CheckAnyBalanceScreen:19 - started admin balance check screen
+2018-08-14 20:10:48 DEBUG CheckAnyBalanceScreen:19 - started admin balance check screen
+2018-08-14 20:11:02 DEBUG CheckAnyTransHistScreen:19 - started admin transaction history check screen
+2018-08-14 20:11:08 DEBUG CheckAnyTransHistScreen:19 - started admin transaction history check screen
+2018-08-14 20:20:18 TRACE BankLauncher:11 - trace log
+2018-08-14 20:20:18 DEBUG BankLauncher:12 - debug log
+2018-08-14 20:20:18 INFO  BankLauncher:13 - info log
+2018-08-14 20:20:18 WARN  BankLauncher:14 - warn log
+2018-08-14 20:20:18 ERROR BankLauncher:15 - error log
+2018-08-14 20:20:18 FATAL BankLauncher:16 - fatal log
+2018-08-14 20:20:18 DEBUG LoginScreen:15 - started login screen
+2018-08-14 20:20:23 TRACE LoginScreen:19 - username = register
+2018-08-14 20:20:52 DEBUG LoginScreen:15 - started login screen
+2018-08-14 20:21:01 TRACE LoginScreen:19 - username = TheBoss
+2018-08-14 20:21:04 DEBUG LoginScreen:28 - received users credentials
+2018-08-14 20:21:04 INFO  LoginScreen:32 - user successfully logged in
+2018-08-14 20:21:08 DEBUG WithdrawalScreen:19 - started withdrawal screen
+2018-08-14 20:22:48 DEBUG WithdrawalScreen:19 - started withdrawal screen
+2018-08-14 20:23:54 DEBUG TransactionHistoryScreen:18 - started transaction history screen
+2018-08-14 20:23:59 DEBUG CheckAnyBalanceScreen:18 - started admin balance check screen
+2018-08-14 20:24:16 DEBUG CheckAnyBalanceScreen:18 - started admin balance check screen
+2018-08-14 20:24:53 DEBUG CheckAnyBalanceScreen:18 - started admin balance check screen
+2018-08-14 20:25:14 DEBUG CheckAnyTransHistScreen:19 - started admin transaction history check screen
+2018-08-14 20:25:22 DEBUG CheckAnyTransHistScreen:19 - started admin transaction history check screen
+2018-08-14 20:26:19 DEBUG LoginScreen:15 - started login screen
+2018-08-14 20:26:25 TRACE LoginScreen:19 - username = register
+2018-08-14 20:28:58 TRACE BankLauncher:11 - trace log
+2018-08-14 20:28:58 DEBUG BankLauncher:12 - debug log
+2018-08-14 20:28:58 INFO  BankLauncher:13 - info log
+2018-08-14 20:28:58 WARN  BankLauncher:14 - warn log
+2018-08-14 20:28:58 ERROR BankLauncher:15 - error log
+2018-08-14 20:28:58 FATAL BankLauncher:16 - fatal log
+2018-08-14 20:28:58 DEBUG LoginScreen:15 - started login screen
+2018-08-14 20:29:02 TRACE LoginScreen:19 - username = RodianPower
+2018-08-14 20:29:07 DEBUG LoginScreen:28 - received users credentials
+2018-08-14 20:29:07 DEBUG LoginScreen:15 - started login screen
+2018-08-14 20:29:10 TRACE LoginScreen:19 - username = register
+2018-08-14 20:30:38 TRACE BankLauncher:11 - trace log
+2018-08-14 20:30:38 DEBUG BankLauncher:12 - debug log
+2018-08-14 20:30:38 INFO  BankLauncher:13 - info log
+2018-08-14 20:30:38 WARN  BankLauncher:14 - warn log
+2018-08-14 20:30:38 ERROR BankLauncher:15 - error log
+2018-08-14 20:30:38 FATAL BankLauncher:16 - fatal log
+2018-08-14 20:30:38 DEBUG LoginScreen:15 - started login screen
+2018-08-14 20:30:44 TRACE LoginScreen:19 - username = RodianPower
+2018-08-14 20:30:49 DEBUG LoginScreen:28 - received users credentials
+2018-08-14 20:30:49 DEBUG LoginScreen:15 - started login screen
+2018-08-14 20:30:51 TRACE LoginScreen:19 - username = register
+2018-08-14 20:32:26 TRACE BankLauncher:11 - trace log
+2018-08-14 20:32:26 DEBUG BankLauncher:12 - debug log
+2018-08-14 20:32:26 INFO  BankLauncher:13 - info log
+2018-08-14 20:32:26 WARN  BankLauncher:14 - warn log
+2018-08-14 20:32:26 ERROR BankLauncher:15 - error log
+2018-08-14 20:32:26 FATAL BankLauncher:16 - fatal log
+2018-08-14 20:32:26 DEBUG LoginScreen:15 - started login screen
+2018-08-14 20:32:29 TRACE LoginScreen:19 - username = register
+2018-08-14 20:34:58 TRACE BankLauncher:11 - trace log
+2018-08-14 20:34:58 DEBUG BankLauncher:12 - debug log
+2018-08-14 20:34:58 INFO  BankLauncher:13 - info log
+2018-08-14 20:34:58 WARN  BankLauncher:14 - warn log
+2018-08-14 20:34:58 ERROR BankLauncher:15 - error log
+2018-08-14 20:34:58 FATAL BankLauncher:16 - fatal log
+2018-08-14 20:34:58 DEBUG LoginScreen:15 - started login screen
+2018-08-14 20:35:04 TRACE LoginScreen:19 - username = register
+2018-08-14 20:35:19 TRACE BankLauncher:11 - trace log
+2018-08-14 20:35:19 DEBUG BankLauncher:12 - debug log
+2018-08-14 20:35:19 INFO  BankLauncher:13 - info log
+2018-08-14 20:35:19 WARN  BankLauncher:14 - warn log
+2018-08-14 20:35:19 ERROR BankLauncher:15 - error log
+2018-08-14 20:35:19 FATAL BankLauncher:16 - fatal log
+2018-08-14 20:35:19 DEBUG LoginScreen:15 - started login screen
+2018-08-14 20:35:22 TRACE LoginScreen:19 - username = register
+2018-08-14 20:37:23 DEBUG LoginScreen:15 - started login screen
+2018-08-14 20:37:28 TRACE LoginScreen:19 - username = RodianPower
+2018-08-14 20:37:31 DEBUG LoginScreen:28 - received users credentials
+2018-08-14 20:37:31 INFO  LoginScreen:32 - user successfully logged in
+2018-08-14 20:37:34 DEBUG WithdrawalScreen:19 - started withdrawal screen
+2018-08-14 20:37:37 DEBUG WithdrawalScreen:19 - started withdrawal screen
+2018-08-14 20:38:02 DEBUG TransactionHistoryScreen:18 - started transaction history screen
+2018-08-14 20:38:36 DEBUG LoginScreen:15 - started login screen
+2018-08-14 20:38:39 TRACE LoginScreen:19 - username = TheBoss
+2018-08-14 20:38:42 DEBUG LoginScreen:28 - received users credentials
+2018-08-14 20:38:42 INFO  LoginScreen:32 - user successfully logged in
+2018-08-14 20:38:47 DEBUG CheckAnyTransHistScreen:19 - started admin transaction history check screen
+2018-08-14 20:38:57 DEBUG CheckAnyTransHistScreen:19 - started admin transaction history check screen
+2018-08-14 20:39:32 DEBUG CheckAnyTransHistScreen:19 - started admin transaction history check screen
+2018-08-14 20:39:39 DEBUG LoginScreen:15 - started login screen

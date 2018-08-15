@@ -1,0 +1,10 @@
+package com.revature.screens;
+
+public class CheckMyBalanceScreen implements Screen {
+	
+	@Override
+	public Screen start() {
+		
+	}
+
+}

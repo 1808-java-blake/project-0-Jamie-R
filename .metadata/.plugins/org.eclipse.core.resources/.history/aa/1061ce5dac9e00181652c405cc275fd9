@@ -1,0 +1,18 @@
+package com.revature.beans;
+
+public class Admin extends User {
+	
+	private boolean isAdmin;
+	
+	public Admin() {
+		super();
+	}
+	
+	public Admin(String username, String password, String name, double balance) {
+		super(username, password, name, balance);
+	}
+
+	public Admin(boolean isAdmin, String username, String password, String name, double balance) {
+		super(username, password, name, balance);
+	}
+}
