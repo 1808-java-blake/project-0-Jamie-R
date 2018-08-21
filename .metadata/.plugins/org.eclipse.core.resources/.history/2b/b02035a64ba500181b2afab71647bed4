@@ -51,8 +51,10 @@ public class RegisterUserScreen implements Screen {
 			t.setDepositAmount(balance);
 			t.setWithdrawalAmount(zero);
 			
+			System.out.println("before createTransaction sysout line");
 			log.trace("before createTransaction");
 			td.createTransaction(t);
+			System.out.println("after createTransaction sysout line");
 			System.out.println(td.findByUserId(u.getUserId()) );
 			
 //		} catch (NumberFormatException e) {

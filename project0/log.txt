@@ -2528,3 +2528,399 @@
 2018-08-21 01:00:56 ERROR TransactionDaoJdbc:49 - com.revature.bankLauncher.BankLauncher.main(BankLauncher.java:20)
 2018-08-21 01:00:56 WARN  TransactionDaoJdbc:51 - failed to create new transaction
 2018-08-21 01:00:56 DEBUG DepositScreen:22 - started deposit screen
+2018-08-21 08:49:43 TRACE BankLauncher:11 - trace log
+2018-08-21 08:49:43 DEBUG BankLauncher:12 - debug log
+2018-08-21 08:49:43 INFO  BankLauncher:13 - info log
+2018-08-21 08:49:43 WARN  BankLauncher:14 - warn log
+2018-08-21 08:49:43 ERROR BankLauncher:15 - error log
+2018-08-21 08:49:43 FATAL BankLauncher:16 - fatal log
+2018-08-21 08:49:43 DEBUG LoginScreen:15 - started login screen
+2018-08-21 08:49:47 TRACE LoginScreen:19 - username = register
+2018-08-21 08:49:56 TRACE UserDaoJdbc:39 - 1 records created
+2018-08-21 08:49:59 TRACE RegisterUserScreen:55 - before createTransaction
+2018-08-21 08:49:59 TRACE TransactionDaoJdbc:31 - start of create transaction
+2018-08-21 08:49:59 TRACE TransactionDaoJdbc:41 - 1 records created
+2018-08-21 08:50:00 DEBUG LoginScreen:15 - started login screen
+2018-08-21 08:52:14 TRACE LoginScreen:19 - username = Q
+2018-08-21 08:52:15 DEBUG LoginScreen:28 - received users credentials
+2018-08-21 08:52:15 INFO  LoginScreen:32 - user successfully logged in
+2018-08-21 08:52:17 DEBUG DepositScreen:22 - started deposit screen
+2018-08-21 08:52:23 ERROR UserDaoJdbc:106 - ERROR: syntax error at or near "VALUES"
+  Position: 81
+2018-08-21 08:52:23 ERROR UserDaoJdbc:108 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+2018-08-21 08:52:23 ERROR UserDaoJdbc:108 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+2018-08-21 08:52:23 ERROR UserDaoJdbc:108 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+2018-08-21 08:52:23 ERROR UserDaoJdbc:108 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-21 08:52:23 ERROR UserDaoJdbc:108 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-21 08:52:23 ERROR UserDaoJdbc:108 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:150)
+2018-08-21 08:52:23 ERROR UserDaoJdbc:108 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:127)
+2018-08-21 08:52:23 ERROR UserDaoJdbc:108 - com.revature.daos.UserDaoJdbc.updateUser(UserDaoJdbc.java:102)
+2018-08-21 08:52:23 ERROR UserDaoJdbc:108 - com.revature.screens.DepositScreen.start(DepositScreen.java:43)
+2018-08-21 08:52:23 ERROR UserDaoJdbc:108 - com.revature.bankLauncher.BankLauncher.main(BankLauncher.java:20)
+2018-08-21 08:52:23 WARN  UserDaoJdbc:110 - failed to update user
+2018-08-21 08:52:23 TRACE TransactionDaoJdbc:31 - start of create transaction
+2018-08-21 08:52:23 ERROR TransactionDaoJdbc:47 - ERROR: insert or update on table "tran" violates foreign key constraint "tran_users_fkey"
+  Detail: Key (user_id)=(0) is not present in table "bank_users".
+2018-08-21 08:52:23 ERROR TransactionDaoJdbc:49 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+2018-08-21 08:52:23 ERROR TransactionDaoJdbc:49 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+2018-08-21 08:52:23 ERROR TransactionDaoJdbc:49 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+2018-08-21 08:52:23 ERROR TransactionDaoJdbc:49 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-21 08:52:23 ERROR TransactionDaoJdbc:49 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-21 08:52:23 ERROR TransactionDaoJdbc:49 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:150)
+2018-08-21 08:52:23 ERROR TransactionDaoJdbc:49 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:127)
+2018-08-21 08:52:23 ERROR TransactionDaoJdbc:49 - com.revature.daos.TransactionDaoJdbc.createTransaction(TransactionDaoJdbc.java:40)
+2018-08-21 08:52:23 ERROR TransactionDaoJdbc:49 - com.revature.screens.DepositScreen.start(DepositScreen.java:52)
+2018-08-21 08:52:23 ERROR TransactionDaoJdbc:49 - com.revature.bankLauncher.BankLauncher.main(BankLauncher.java:20)
+2018-08-21 08:52:23 WARN  TransactionDaoJdbc:51 - failed to create new transaction
+2018-08-21 08:52:23 DEBUG DepositScreen:22 - started deposit screen
+2018-08-21 08:57:04 TRACE BankLauncher:11 - trace log
+2018-08-21 08:57:04 DEBUG BankLauncher:12 - debug log
+2018-08-21 08:57:04 INFO  BankLauncher:13 - info log
+2018-08-21 08:57:04 WARN  BankLauncher:14 - warn log
+2018-08-21 08:57:04 ERROR BankLauncher:15 - error log
+2018-08-21 08:57:04 FATAL BankLauncher:16 - fatal log
+2018-08-21 08:57:04 DEBUG LoginScreen:15 - started login screen
+2018-08-21 08:57:07 TRACE LoginScreen:19 - username = BaeFett
+2018-08-21 08:57:10 DEBUG LoginScreen:28 - received users credentials
+2018-08-21 08:57:10 WARN  UserDaoJdbc:76 - failed to find user with provided credentials from the db
+2018-08-21 08:57:10 DEBUG LoginScreen:15 - started login screen
+2018-08-21 08:57:16 TRACE LoginScreen:19 - username = test
+2018-08-21 08:57:18 DEBUG LoginScreen:28 - received users credentials
+2018-08-21 08:57:18 INFO  LoginScreen:32 - user successfully logged in
+2018-08-21 08:57:20 DEBUG CheckMyBalanceScreen:17 - started self balance check screen
+2018-08-21 08:57:25 DEBUG DepositScreen:22 - started deposit screen
+2018-08-21 08:57:32 ERROR UserDaoJdbc:106 - No value specified for parameter 6.
+2018-08-21 08:57:32 ERROR UserDaoJdbc:108 - org.postgresql.core.v3.SimpleParameterList.checkAllParametersSet(SimpleParameterList.java:257)
+2018-08-21 08:57:32 ERROR UserDaoJdbc:108 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:292)
+2018-08-21 08:57:32 ERROR UserDaoJdbc:108 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-21 08:57:32 ERROR UserDaoJdbc:108 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-21 08:57:32 ERROR UserDaoJdbc:108 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:150)
+2018-08-21 08:57:32 ERROR UserDaoJdbc:108 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:127)
+2018-08-21 08:57:32 ERROR UserDaoJdbc:108 - com.revature.daos.UserDaoJdbc.updateUser(UserDaoJdbc.java:102)
+2018-08-21 08:57:32 ERROR UserDaoJdbc:108 - com.revature.screens.DepositScreen.start(DepositScreen.java:44)
+2018-08-21 08:57:32 ERROR UserDaoJdbc:108 - com.revature.bankLauncher.BankLauncher.main(BankLauncher.java:20)
+2018-08-21 08:57:32 WARN  UserDaoJdbc:110 - failed to update user
+2018-08-21 08:57:32 TRACE TransactionDaoJdbc:31 - start of create transaction
+2018-08-21 08:57:32 ERROR TransactionDaoJdbc:47 - ERROR: insert or update on table "tran" violates foreign key constraint "tran_users_fkey"
+  Detail: Key (user_id)=(0) is not present in table "bank_users".
+2018-08-21 08:57:32 ERROR TransactionDaoJdbc:49 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+2018-08-21 08:57:32 ERROR TransactionDaoJdbc:49 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+2018-08-21 08:57:32 ERROR TransactionDaoJdbc:49 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+2018-08-21 08:57:32 ERROR TransactionDaoJdbc:49 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-21 08:57:32 ERROR TransactionDaoJdbc:49 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-21 08:57:32 ERROR TransactionDaoJdbc:49 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:150)
+2018-08-21 08:57:32 ERROR TransactionDaoJdbc:49 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:127)
+2018-08-21 08:57:32 ERROR TransactionDaoJdbc:49 - com.revature.daos.TransactionDaoJdbc.createTransaction(TransactionDaoJdbc.java:40)
+2018-08-21 08:57:32 ERROR TransactionDaoJdbc:49 - com.revature.screens.DepositScreen.start(DepositScreen.java:53)
+2018-08-21 08:57:32 ERROR TransactionDaoJdbc:49 - com.revature.bankLauncher.BankLauncher.main(BankLauncher.java:20)
+2018-08-21 08:57:32 WARN  TransactionDaoJdbc:51 - failed to create new transaction
+2018-08-21 08:57:32 DEBUG DepositScreen:22 - started deposit screen
+2018-08-21 09:12:13 TRACE BankLauncher:11 - trace log
+2018-08-21 09:12:13 DEBUG BankLauncher:12 - debug log
+2018-08-21 09:12:13 INFO  BankLauncher:13 - info log
+2018-08-21 09:12:13 WARN  BankLauncher:14 - warn log
+2018-08-21 09:12:13 ERROR BankLauncher:15 - error log
+2018-08-21 09:12:13 FATAL BankLauncher:16 - fatal log
+2018-08-21 09:12:13 DEBUG LoginScreen:15 - started login screen
+2018-08-21 09:12:15 TRACE LoginScreen:19 - username = T
+2018-08-21 09:12:17 DEBUG LoginScreen:28 - received users credentials
+2018-08-21 09:12:18 WARN  UserDaoJdbc:76 - failed to find user with provided credentials from the db
+2018-08-21 09:12:18 DEBUG LoginScreen:15 - started login screen
+2018-08-21 09:12:21 TRACE LoginScreen:19 - username = register
+2018-08-21 09:12:48 TRACE UserDaoJdbc:39 - 1 records created
+2018-08-21 09:12:52 TRACE RegisterUserScreen:55 - before createTransaction
+2018-08-21 09:12:52 TRACE TransactionDaoJdbc:31 - start of create transaction
+2018-08-21 09:12:52 TRACE TransactionDaoJdbc:41 - 1 records created
+2018-08-21 09:12:53 DEBUG LoginScreen:15 - started login screen
+2018-08-21 09:13:05 TRACE LoginScreen:19 - username = T
+2018-08-21 09:13:05 DEBUG LoginScreen:28 - received users credentials
+2018-08-21 09:13:05 INFO  LoginScreen:32 - user successfully logged in
+2018-08-21 09:13:09 DEBUG CheckMyBalanceScreen:17 - started self balance check screen
+2018-08-21 09:13:14 DEBUG DepositScreen:22 - started deposit screen
+2018-08-21 09:13:20 ERROR UserDaoJdbc:108 - No value specified for parameter 6.
+2018-08-21 09:13:20 ERROR UserDaoJdbc:110 - org.postgresql.core.v3.SimpleParameterList.checkAllParametersSet(SimpleParameterList.java:257)
+2018-08-21 09:13:20 ERROR UserDaoJdbc:110 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:292)
+2018-08-21 09:13:20 ERROR UserDaoJdbc:110 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-21 09:13:20 ERROR UserDaoJdbc:110 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-21 09:13:20 ERROR UserDaoJdbc:110 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:150)
+2018-08-21 09:13:20 ERROR UserDaoJdbc:110 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:127)
+2018-08-21 09:13:20 ERROR UserDaoJdbc:110 - com.revature.daos.UserDaoJdbc.updateUser(UserDaoJdbc.java:104)
+2018-08-21 09:13:20 ERROR UserDaoJdbc:110 - com.revature.screens.DepositScreen.start(DepositScreen.java:44)
+2018-08-21 09:13:20 ERROR UserDaoJdbc:110 - com.revature.bankLauncher.BankLauncher.main(BankLauncher.java:20)
+2018-08-21 09:13:20 WARN  UserDaoJdbc:112 - failed to update user
+2018-08-21 09:13:20 TRACE TransactionDaoJdbc:31 - start of create transaction
+2018-08-21 09:13:20 ERROR TransactionDaoJdbc:47 - ERROR: insert or update on table "tran" violates foreign key constraint "tran_users_fkey"
+  Detail: Key (user_id)=(0) is not present in table "bank_users".
+2018-08-21 09:13:20 ERROR TransactionDaoJdbc:49 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+2018-08-21 09:13:20 ERROR TransactionDaoJdbc:49 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+2018-08-21 09:13:20 ERROR TransactionDaoJdbc:49 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+2018-08-21 09:13:20 ERROR TransactionDaoJdbc:49 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-21 09:13:20 ERROR TransactionDaoJdbc:49 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-21 09:13:20 ERROR TransactionDaoJdbc:49 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:150)
+2018-08-21 09:13:20 ERROR TransactionDaoJdbc:49 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:127)
+2018-08-21 09:13:20 ERROR TransactionDaoJdbc:49 - com.revature.daos.TransactionDaoJdbc.createTransaction(TransactionDaoJdbc.java:40)
+2018-08-21 09:13:20 ERROR TransactionDaoJdbc:49 - com.revature.screens.DepositScreen.start(DepositScreen.java:53)
+2018-08-21 09:13:20 ERROR TransactionDaoJdbc:49 - com.revature.bankLauncher.BankLauncher.main(BankLauncher.java:20)
+2018-08-21 09:13:20 WARN  TransactionDaoJdbc:51 - failed to create new transaction
+2018-08-21 09:13:20 DEBUG DepositScreen:22 - started deposit screen
+2018-08-21 09:36:45 TRACE BankLauncher:11 - trace log
+2018-08-21 09:36:45 DEBUG BankLauncher:12 - debug log
+2018-08-21 09:36:45 INFO  BankLauncher:13 - info log
+2018-08-21 09:36:45 WARN  BankLauncher:14 - warn log
+2018-08-21 09:36:45 ERROR BankLauncher:15 - error log
+2018-08-21 09:36:45 FATAL BankLauncher:16 - fatal log
+2018-08-21 09:36:45 DEBUG LoginScreen:15 - started login screen
+2018-08-21 09:37:25 TRACE BankLauncher:11 - trace log
+2018-08-21 09:37:25 DEBUG BankLauncher:12 - debug log
+2018-08-21 09:37:25 INFO  BankLauncher:13 - info log
+2018-08-21 09:37:25 WARN  BankLauncher:14 - warn log
+2018-08-21 09:37:25 ERROR BankLauncher:15 - error log
+2018-08-21 09:37:25 FATAL BankLauncher:16 - fatal log
+2018-08-21 09:37:25 DEBUG LoginScreen:15 - started login screen
+2018-08-21 09:48:44 TRACE BankLauncher:11 - trace log
+2018-08-21 09:48:44 DEBUG BankLauncher:12 - debug log
+2018-08-21 09:48:44 INFO  BankLauncher:13 - info log
+2018-08-21 09:48:44 WARN  BankLauncher:14 - warn log
+2018-08-21 09:48:44 ERROR BankLauncher:15 - error log
+2018-08-21 09:48:44 FATAL BankLauncher:16 - fatal log
+2018-08-21 09:48:44 DEBUG LoginScreen:15 - started login screen
+2018-08-21 10:05:31 TRACE LoginScreen:19 - username = register
+2018-08-21 10:05:45 TRACE UserDaoJdbc:39 - 1 records created
+2018-08-21 10:05:48 TRACE RegisterUserScreen:55 - before createTransaction
+2018-08-21 10:05:48 TRACE TransactionDaoJdbc:31 - start of create transaction
+2018-08-21 10:05:48 TRACE TransactionDaoJdbc:41 - 1 records created
+2018-08-21 10:05:49 DEBUG LoginScreen:15 - started login screen
+2018-08-21 10:08:16 TRACE BankLauncher:11 - trace log
+2018-08-21 10:08:16 DEBUG BankLauncher:12 - debug log
+2018-08-21 10:08:16 INFO  BankLauncher:13 - info log
+2018-08-21 10:08:16 WARN  BankLauncher:14 - warn log
+2018-08-21 10:08:16 ERROR BankLauncher:15 - error log
+2018-08-21 10:08:16 FATAL BankLauncher:16 - fatal log
+2018-08-21 10:08:16 DEBUG LoginScreen:15 - started login screen
+2018-08-21 10:11:27 TRACE BankLauncher:11 - trace log
+2018-08-21 10:11:27 DEBUG BankLauncher:12 - debug log
+2018-08-21 10:11:27 INFO  BankLauncher:13 - info log
+2018-08-21 10:11:27 WARN  BankLauncher:14 - warn log
+2018-08-21 10:11:27 ERROR BankLauncher:15 - error log
+2018-08-21 10:11:27 FATAL BankLauncher:16 - fatal log
+2018-08-21 10:11:27 DEBUG LoginScreen:15 - started login screen
+2018-08-21 10:19:42 TRACE LoginScreen:19 - username = Boss
+2018-08-21 10:19:44 DEBUG LoginScreen:28 - received users credentials
+2018-08-21 10:19:45 INFO  LoginScreen:32 - user successfully logged in
+2018-08-21 10:20:11 DEBUG CheckMyBalanceScreen:17 - started self balance check screen
+2018-08-21 10:20:19 DEBUG DepositScreen:22 - started deposit screen
+2018-08-21 10:20:51 ERROR UserDaoJdbc:106 - ERROR: syntax error at or near "VALUES"
+  Position: 81
+2018-08-21 10:20:51 ERROR UserDaoJdbc:108 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+2018-08-21 10:20:51 ERROR UserDaoJdbc:108 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+2018-08-21 10:20:51 ERROR UserDaoJdbc:108 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+2018-08-21 10:20:51 ERROR UserDaoJdbc:108 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-21 10:20:51 ERROR UserDaoJdbc:108 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-21 10:20:51 ERROR UserDaoJdbc:108 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:150)
+2018-08-21 10:20:51 ERROR UserDaoJdbc:108 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:127)
+2018-08-21 10:20:51 ERROR UserDaoJdbc:108 - com.revature.daos.UserDaoJdbc.updateUser(UserDaoJdbc.java:102)
+2018-08-21 10:20:51 ERROR UserDaoJdbc:108 - com.revature.screens.DepositScreen.start(DepositScreen.java:44)
+2018-08-21 10:20:51 ERROR UserDaoJdbc:108 - com.revature.bankLauncher.BankLauncher.main(BankLauncher.java:20)
+2018-08-21 10:20:51 WARN  UserDaoJdbc:110 - failed to update user
+2018-08-21 10:20:51 TRACE TransactionDaoJdbc:31 - start of create transaction
+2018-08-21 10:20:52 ERROR TransactionDaoJdbc:45 - ERROR: insert or update on table "tran" violates foreign key constraint "tran_users_fkey"
+  Detail: Key (user_id)=(0) is not present in table "bank_users".
+2018-08-21 10:20:52 ERROR TransactionDaoJdbc:47 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+2018-08-21 10:20:52 ERROR TransactionDaoJdbc:47 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+2018-08-21 10:20:52 ERROR TransactionDaoJdbc:47 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+2018-08-21 10:20:52 ERROR TransactionDaoJdbc:47 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-21 10:20:52 ERROR TransactionDaoJdbc:47 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-21 10:20:52 ERROR TransactionDaoJdbc:47 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:150)
+2018-08-21 10:20:52 ERROR TransactionDaoJdbc:47 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:127)
+2018-08-21 10:20:52 ERROR TransactionDaoJdbc:47 - com.revature.daos.TransactionDaoJdbc.createTransaction(TransactionDaoJdbc.java:39)
+2018-08-21 10:20:52 ERROR TransactionDaoJdbc:47 - com.revature.screens.DepositScreen.start(DepositScreen.java:53)
+2018-08-21 10:20:52 ERROR TransactionDaoJdbc:47 - com.revature.bankLauncher.BankLauncher.main(BankLauncher.java:20)
+2018-08-21 10:20:52 WARN  TransactionDaoJdbc:49 - failed to create new transaction
+2018-08-21 10:20:52 DEBUG DepositScreen:22 - started deposit screen
+2018-08-21 10:21:19 DEBUG CheckMyBalanceScreen:17 - started self balance check screen
+2018-08-21 10:21:23 DEBUG LoginScreen:15 - started login screen
+2018-08-21 10:21:33 TRACE BankLauncher:11 - trace log
+2018-08-21 10:21:33 DEBUG BankLauncher:12 - debug log
+2018-08-21 10:21:33 INFO  BankLauncher:13 - info log
+2018-08-21 10:21:33 WARN  BankLauncher:14 - warn log
+2018-08-21 10:21:33 ERROR BankLauncher:15 - error log
+2018-08-21 10:21:33 FATAL BankLauncher:16 - fatal log
+2018-08-21 10:21:33 DEBUG LoginScreen:15 - started login screen
+2018-08-21 10:21:55 TRACE LoginScreen:19 - username = Boss
+2018-08-21 10:21:58 DEBUG LoginScreen:28 - received users credentials
+2018-08-21 10:21:59 INFO  LoginScreen:32 - user successfully logged in
+2018-08-21 10:22:00 DEBUG CheckMyBalanceScreen:17 - started self balance check screen
+2018-08-21 10:22:03 DEBUG WithdrawalScreen:22 - started withdrawal screen
+2018-08-21 10:22:12 ERROR UserDaoJdbc:106 - ERROR: syntax error at or near "VALUES"
+  Position: 81
+2018-08-21 10:22:12 ERROR UserDaoJdbc:108 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+2018-08-21 10:22:12 ERROR UserDaoJdbc:108 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+2018-08-21 10:22:12 ERROR UserDaoJdbc:108 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+2018-08-21 10:22:12 ERROR UserDaoJdbc:108 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-21 10:22:12 ERROR UserDaoJdbc:108 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-21 10:22:12 ERROR UserDaoJdbc:108 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:150)
+2018-08-21 10:22:12 ERROR UserDaoJdbc:108 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:127)
+2018-08-21 10:22:12 ERROR UserDaoJdbc:108 - com.revature.daos.UserDaoJdbc.updateUser(UserDaoJdbc.java:102)
+2018-08-21 10:22:12 ERROR UserDaoJdbc:108 - com.revature.screens.WithdrawalScreen.start(WithdrawalScreen.java:43)
+2018-08-21 10:22:12 ERROR UserDaoJdbc:108 - com.revature.bankLauncher.BankLauncher.main(BankLauncher.java:20)
+2018-08-21 10:22:12 WARN  UserDaoJdbc:110 - failed to update user
+2018-08-21 10:22:12 TRACE TransactionDaoJdbc:31 - start of create transaction
+2018-08-21 10:22:12 ERROR TransactionDaoJdbc:45 - ERROR: insert or update on table "tran" violates foreign key constraint "tran_users_fkey"
+  Detail: Key (user_id)=(0) is not present in table "bank_users".
+2018-08-21 10:22:12 ERROR TransactionDaoJdbc:47 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+2018-08-21 10:22:12 ERROR TransactionDaoJdbc:47 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+2018-08-21 10:22:12 ERROR TransactionDaoJdbc:47 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+2018-08-21 10:22:12 ERROR TransactionDaoJdbc:47 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-21 10:22:12 ERROR TransactionDaoJdbc:47 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-21 10:22:12 ERROR TransactionDaoJdbc:47 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:150)
+2018-08-21 10:22:12 ERROR TransactionDaoJdbc:47 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:127)
+2018-08-21 10:22:12 ERROR TransactionDaoJdbc:47 - com.revature.daos.TransactionDaoJdbc.createTransaction(TransactionDaoJdbc.java:39)
+2018-08-21 10:22:12 ERROR TransactionDaoJdbc:47 - com.revature.screens.WithdrawalScreen.start(WithdrawalScreen.java:50)
+2018-08-21 10:22:12 ERROR TransactionDaoJdbc:47 - com.revature.bankLauncher.BankLauncher.main(BankLauncher.java:20)
+2018-08-21 10:22:12 WARN  TransactionDaoJdbc:49 - failed to create new transaction
+2018-08-21 10:22:12 DEBUG WithdrawalScreen:22 - started withdrawal screen
+2018-08-21 10:22:18 ERROR UserDaoJdbc:106 - ERROR: syntax error at or near "VALUES"
+  Position: 81
+2018-08-21 10:22:18 ERROR UserDaoJdbc:108 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+2018-08-21 10:22:18 ERROR UserDaoJdbc:108 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+2018-08-21 10:22:18 ERROR UserDaoJdbc:108 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+2018-08-21 10:22:18 ERROR UserDaoJdbc:108 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-21 10:22:18 ERROR UserDaoJdbc:108 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-21 10:22:18 ERROR UserDaoJdbc:108 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:150)
+2018-08-21 10:22:18 ERROR UserDaoJdbc:108 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:127)
+2018-08-21 10:22:18 ERROR UserDaoJdbc:108 - com.revature.daos.UserDaoJdbc.updateUser(UserDaoJdbc.java:102)
+2018-08-21 10:22:18 ERROR UserDaoJdbc:108 - com.revature.screens.WithdrawalScreen.start(WithdrawalScreen.java:43)
+2018-08-21 10:22:18 ERROR UserDaoJdbc:108 - com.revature.bankLauncher.BankLauncher.main(BankLauncher.java:20)
+2018-08-21 10:22:18 WARN  UserDaoJdbc:110 - failed to update user
+2018-08-21 10:22:18 TRACE TransactionDaoJdbc:31 - start of create transaction
+2018-08-21 10:22:18 ERROR TransactionDaoJdbc:45 - ERROR: insert or update on table "tran" violates foreign key constraint "tran_users_fkey"
+  Detail: Key (user_id)=(0) is not present in table "bank_users".
+2018-08-21 10:22:18 ERROR TransactionDaoJdbc:47 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+2018-08-21 10:22:18 ERROR TransactionDaoJdbc:47 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+2018-08-21 10:22:18 ERROR TransactionDaoJdbc:47 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+2018-08-21 10:22:18 ERROR TransactionDaoJdbc:47 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-21 10:22:18 ERROR TransactionDaoJdbc:47 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-21 10:22:18 ERROR TransactionDaoJdbc:47 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:150)
+2018-08-21 10:22:18 ERROR TransactionDaoJdbc:47 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:127)
+2018-08-21 10:22:18 ERROR TransactionDaoJdbc:47 - com.revature.daos.TransactionDaoJdbc.createTransaction(TransactionDaoJdbc.java:39)
+2018-08-21 10:22:18 ERROR TransactionDaoJdbc:47 - com.revature.screens.WithdrawalScreen.start(WithdrawalScreen.java:50)
+2018-08-21 10:22:18 ERROR TransactionDaoJdbc:47 - com.revature.bankLauncher.BankLauncher.main(BankLauncher.java:20)
+2018-08-21 10:22:18 WARN  TransactionDaoJdbc:49 - failed to create new transaction
+2018-08-21 10:22:18 DEBUG WithdrawalScreen:22 - started withdrawal screen
+2018-08-21 10:22:21 DEBUG CheckMyBalanceScreen:17 - started self balance check screen
+2018-08-21 10:22:38 DEBUG TransactionHistoryScreen:22 - started transaction history screen
+2018-08-21 10:22:38 TRACE TransactionHistoryScreen:27 - about to output transaction history
+2018-08-21 10:22:38 TRACE TransactionHistoryScreen:38 - after output transaction history
+2018-08-21 10:22:45 DEBUG CheckAnyBalanceScreen:18 - started admin balance check screen
+2018-08-21 10:22:50 DEBUG LoginScreen:15 - started login screen
+2018-08-21 10:22:52 TRACE LoginScreen:19 - username = register
+2018-08-21 10:24:29 TRACE UserDaoJdbc:39 - 1 records created
+2018-08-21 10:24:33 TRACE RegisterUserScreen:54 - before createTransaction
+2018-08-21 10:24:33 TRACE TransactionDaoJdbc:31 - start of create transaction
+2018-08-21 10:24:33 TRACE TransactionDaoJdbc:40 - 1 records created
+2018-08-21 10:24:33 DEBUG LoginScreen:15 - started login screen
+2018-08-21 10:25:40 TRACE LoginScreen:19 - username = BaeFett
+2018-08-21 10:25:43 DEBUG LoginScreen:28 - received users credentials
+2018-08-21 10:25:43 INFO  LoginScreen:32 - user successfully logged in
+2018-08-21 10:25:47 DEBUG CheckMyBalanceScreen:17 - started self balance check screen
+2018-08-21 10:28:01 DEBUG TransactionHistoryScreen:22 - started transaction history screen
+2018-08-21 10:28:01 TRACE TransactionHistoryScreen:27 - about to output transaction history
+2018-08-21 10:28:02 TRACE TransactionHistoryScreen:38 - after output transaction history
+2018-08-21 10:28:06 DEBUG DepositScreen:22 - started deposit screen
+2018-08-21 10:28:11 ERROR UserDaoJdbc:106 - ERROR: syntax error at or near "VALUES"
+  Position: 81
+2018-08-21 10:28:11 ERROR UserDaoJdbc:108 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+2018-08-21 10:28:11 ERROR UserDaoJdbc:108 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+2018-08-21 10:28:11 ERROR UserDaoJdbc:108 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+2018-08-21 10:28:11 ERROR UserDaoJdbc:108 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-21 10:28:11 ERROR UserDaoJdbc:108 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-21 10:28:11 ERROR UserDaoJdbc:108 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:150)
+2018-08-21 10:28:11 ERROR UserDaoJdbc:108 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:127)
+2018-08-21 10:28:11 ERROR UserDaoJdbc:108 - com.revature.daos.UserDaoJdbc.updateUser(UserDaoJdbc.java:102)
+2018-08-21 10:28:11 ERROR UserDaoJdbc:108 - com.revature.screens.DepositScreen.start(DepositScreen.java:43)
+2018-08-21 10:28:11 ERROR UserDaoJdbc:108 - com.revature.bankLauncher.BankLauncher.main(BankLauncher.java:20)
+2018-08-21 10:28:11 WARN  UserDaoJdbc:110 - failed to update user
+2018-08-21 10:28:11 TRACE TransactionDaoJdbc:31 - start of create transaction
+2018-08-21 10:28:11 ERROR TransactionDaoJdbc:45 - ERROR: insert or update on table "tran" violates foreign key constraint "tran_users_fkey"
+  Detail: Key (user_id)=(0) is not present in table "bank_users".
+2018-08-21 10:28:11 ERROR TransactionDaoJdbc:47 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+2018-08-21 10:28:11 ERROR TransactionDaoJdbc:47 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+2018-08-21 10:28:11 ERROR TransactionDaoJdbc:47 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+2018-08-21 10:28:11 ERROR TransactionDaoJdbc:47 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-21 10:28:11 ERROR TransactionDaoJdbc:47 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-21 10:28:11 ERROR TransactionDaoJdbc:47 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:150)
+2018-08-21 10:28:11 ERROR TransactionDaoJdbc:47 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:127)
+2018-08-21 10:28:11 ERROR TransactionDaoJdbc:47 - com.revature.daos.TransactionDaoJdbc.createTransaction(TransactionDaoJdbc.java:39)
+2018-08-21 10:28:11 ERROR TransactionDaoJdbc:47 - com.revature.screens.DepositScreen.start(DepositScreen.java:52)
+2018-08-21 10:28:11 ERROR TransactionDaoJdbc:47 - com.revature.bankLauncher.BankLauncher.main(BankLauncher.java:20)
+2018-08-21 10:28:11 WARN  TransactionDaoJdbc:49 - failed to create new transaction
+2018-08-21 10:28:11 DEBUG DepositScreen:22 - started deposit screen
+2018-08-21 10:28:21 TRACE BankLauncher:11 - trace log
+2018-08-21 10:28:21 DEBUG BankLauncher:12 - debug log
+2018-08-21 10:28:21 INFO  BankLauncher:13 - info log
+2018-08-21 10:28:21 WARN  BankLauncher:14 - warn log
+2018-08-21 10:28:21 ERROR BankLauncher:15 - error log
+2018-08-21 10:28:21 FATAL BankLauncher:16 - fatal log
+2018-08-21 10:28:21 DEBUG LoginScreen:15 - started login screen
+2018-08-21 10:28:23 TRACE LoginScreen:19 - username = BaeFett
+2018-08-21 10:28:26 DEBUG LoginScreen:28 - received users credentials
+2018-08-21 10:28:26 INFO  LoginScreen:32 - user successfully logged in
+2018-08-21 10:30:01 DEBUG LoginScreen:15 - started login screen
+2018-08-21 10:30:04 TRACE LoginScreen:19 - username = Boss
+2018-08-21 10:30:13 DEBUG LoginScreen:28 - received users credentials
+2018-08-21 10:30:13 INFO  LoginScreen:32 - user successfully logged in
+2018-08-21 10:31:59 DEBUG CheckAnyBalanceScreen:18 - started admin balance check screen
+2018-08-21 10:32:07 DEBUG CheckAnyBalanceScreen:18 - started admin balance check screen
+2018-08-21 10:32:46 TRACE BankLauncher:11 - trace log
+2018-08-21 10:32:46 DEBUG BankLauncher:12 - debug log
+2018-08-21 10:32:46 INFO  BankLauncher:13 - info log
+2018-08-21 10:32:46 WARN  BankLauncher:14 - warn log
+2018-08-21 10:32:46 ERROR BankLauncher:15 - error log
+2018-08-21 10:32:46 FATAL BankLauncher:16 - fatal log
+2018-08-21 10:32:46 DEBUG LoginScreen:15 - started login screen
+2018-08-21 10:39:55 TRACE LoginScreen:19 - username = register
+2018-08-21 10:40:35 TRACE UserDaoJdbc:39 - 1 records created
+2018-08-21 10:40:44 TRACE RegisterUserScreen:54 - before createTransaction
+2018-08-21 10:40:44 TRACE TransactionDaoJdbc:31 - start of create transaction
+2018-08-21 10:40:44 TRACE TransactionDaoJdbc:40 - 1 records created
+2018-08-21 10:40:44 DEBUG LoginScreen:15 - started login screen
+2018-08-21 10:41:02 TRACE LoginScreen:19 - username = HiredGoon1
+2018-08-21 10:41:04 DEBUG LoginScreen:28 - received users credentials
+2018-08-21 10:41:04 INFO  LoginScreen:32 - user successfully logged in
+2018-08-21 10:41:10 DEBUG CheckMyBalanceScreen:17 - started self balance check screen
+2018-08-21 10:41:16 DEBUG DepositScreen:22 - started deposit screen
+2018-08-21 10:41:28 ERROR UserDaoJdbc:106 - ERROR: syntax error at or near "VALUES"
+  Position: 81
+2018-08-21 10:41:28 ERROR UserDaoJdbc:108 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+2018-08-21 10:41:28 ERROR UserDaoJdbc:108 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+2018-08-21 10:41:28 ERROR UserDaoJdbc:108 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+2018-08-21 10:41:28 ERROR UserDaoJdbc:108 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-21 10:41:28 ERROR UserDaoJdbc:108 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-21 10:41:28 ERROR UserDaoJdbc:108 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:150)
+2018-08-21 10:41:28 ERROR UserDaoJdbc:108 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:127)
+2018-08-21 10:41:28 ERROR UserDaoJdbc:108 - com.revature.daos.UserDaoJdbc.updateUser(UserDaoJdbc.java:102)
+2018-08-21 10:41:28 ERROR UserDaoJdbc:108 - com.revature.screens.DepositScreen.start(DepositScreen.java:43)
+2018-08-21 10:41:28 ERROR UserDaoJdbc:108 - com.revature.bankLauncher.BankLauncher.main(BankLauncher.java:20)
+2018-08-21 10:41:28 WARN  UserDaoJdbc:110 - failed to update user
+2018-08-21 10:41:28 TRACE TransactionDaoJdbc:31 - start of create transaction
+2018-08-21 10:41:29 ERROR TransactionDaoJdbc:45 - ERROR: insert or update on table "tran" violates foreign key constraint "tran_users_fkey"
+  Detail: Key (user_id)=(0) is not present in table "bank_users".
+2018-08-21 10:41:29 ERROR TransactionDaoJdbc:47 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+2018-08-21 10:41:29 ERROR TransactionDaoJdbc:47 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+2018-08-21 10:41:29 ERROR TransactionDaoJdbc:47 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+2018-08-21 10:41:29 ERROR TransactionDaoJdbc:47 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-21 10:41:29 ERROR TransactionDaoJdbc:47 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-21 10:41:29 ERROR TransactionDaoJdbc:47 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:150)
+2018-08-21 10:41:29 ERROR TransactionDaoJdbc:47 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:127)
+2018-08-21 10:41:29 ERROR TransactionDaoJdbc:47 - com.revature.daos.TransactionDaoJdbc.createTransaction(TransactionDaoJdbc.java:39)
+2018-08-21 10:41:29 ERROR TransactionDaoJdbc:47 - com.revature.screens.DepositScreen.start(DepositScreen.java:52)
+2018-08-21 10:41:29 ERROR TransactionDaoJdbc:47 - com.revature.bankLauncher.BankLauncher.main(BankLauncher.java:20)
+2018-08-21 10:41:29 WARN  TransactionDaoJdbc:49 - failed to create new transaction
+2018-08-21 10:41:29 DEBUG DepositScreen:22 - started deposit screen
+2018-08-21 10:41:59 DEBUG LoginScreen:15 - started login screen
+2018-08-21 10:42:03 TRACE LoginScreen:19 - username = Boss
+2018-08-21 10:42:06 DEBUG LoginScreen:28 - received users credentials
+2018-08-21 10:42:07 INFO  LoginScreen:32 - user successfully logged in
+2018-08-21 10:42:12 DEBUG CheckAnyBalanceScreen:18 - started admin balance check screen
+2018-08-21 10:42:25 DEBUG CheckAnyBalanceScreen:18 - started admin balance check screen
+2018-08-21 10:42:34 DEBUG CheckMyBalanceScreen:17 - started self balance check screen

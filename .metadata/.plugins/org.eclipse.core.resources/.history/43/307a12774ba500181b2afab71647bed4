@@ -29,6 +29,7 @@ public class TransactionDaoJdbc implements TransactionDao {
 	@Override
 	public void createTransaction(Transaction t) {
 		log.trace("start of create transaction");
+		System.out.println("start of create transaction sysout line");
 		try (Connection conn = cu.getConnection()) {
 			PreparedStatement ps = conn.prepareStatement(
 					"INSERT INTO tran (transaction_date, user_id, deposit_amount, withdrawal_amount) VALUES (?,?,?,?)");
@@ -40,6 +41,7 @@ public class TransactionDaoJdbc implements TransactionDao {
 			log.trace(recordsCreated + " records created");
 			
 			
+			System.out.println("Made a transaction");
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			log.error(e.getMessage());
