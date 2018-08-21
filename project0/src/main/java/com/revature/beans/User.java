@@ -1,34 +1,34 @@
 package com.revature.beans;
 
-import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.List;
 
-public class User implements Serializable {
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = -6515638465708124209L;
+public class User {
 	
-	
+	private int userId;
 	private String username;
 	private String password;
 	private String name;
 	private double balance;
 	private boolean isAdmin = false;
-	List<String> transactions = new ArrayList<>(); 
+	
 	
 	public User() {
 		super();
+		// TODO Auto-generated constructor stub
 	}
-	public User(String username, String password, String name, double balance, List<String> transactions, boolean isAdmin) {
+	public User(int userId, String username, String password, String name, double balance, boolean isAdmin) {
 		super();
+		this.userId = userId;
 		this.username = username;
 		this.password = password;
 		this.name = name;
 		this.balance = balance;
-		this.transactions = transactions;
 		this.isAdmin = isAdmin;
+	}
+	public int getUserId() {
+		return userId;
+	}
+	public void setUserId(int userId) {
+		this.userId = userId;
 	}
 	public String getUsername() {
 		return username;
@@ -54,19 +54,12 @@ public class User implements Serializable {
 	public void setBalance(double balance) {
 		this.balance = balance;
 	}
-	public List<String> getTransactions() {
-		return transactions;
-	}
-	public void setTransactions (List<String> transactions) {
-		this.transactions = transactions;
-	}
 	public boolean getIsAdmin() {
 		return isAdmin;
 	}
 	public void setIsAdmin(boolean isAdmin) {
 		this.isAdmin = isAdmin;
 	}
-
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -77,12 +70,10 @@ public class User implements Serializable {
 		result = prime * result + (isAdmin ? 1231 : 1237);
 		result = prime * result + ((name == null) ? 0 : name.hashCode());
 		result = prime * result + ((password == null) ? 0 : password.hashCode());
-		result = prime * result + ((transactions == null) ? 0 : transactions.hashCode());
+		result = prime * result + userId;
 		result = prime * result + ((username == null) ? 0 : username.hashCode());
 		return result;
 	}
-
-
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -106,10 +97,7 @@ public class User implements Serializable {
 				return false;
 		} else if (!password.equals(other.password))
 			return false;
-		if (transactions == null) {
-			if (other.transactions != null)
-				return false;
-		} else if (!transactions.equals(other.transactions))
+		if (userId != other.userId)
 			return false;
 		if (username == null) {
 			if (other.username != null)
@@ -120,7 +108,10 @@ public class User implements Serializable {
 	}
 	@Override
 	public String toString() {
-		return "User [username=" + username + ", password=" + password + ", name=" + name + ", balance=" + balance
-				+ ", isAdmin=" + isAdmin + ", transactions=" + transactions + "]";
+		return "User [userId=" + userId + ", username=" + username + ", password=" + password + ", name=" + name
+				+ ", balance=" + balance + ", isAdmin=" + isAdmin + "]";
 	}
+	
+	
+	
 }

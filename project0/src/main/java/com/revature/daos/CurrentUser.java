@@ -1,13 +1,9 @@
 package com.revature.daos;
 
-import org.apache.log4j.Logger;
-
 import com.revature.beans.User;
 
 public class CurrentUser {
 	
-	@SuppressWarnings("unused")
-	private Logger log = Logger.getRootLogger();
 	private static UserDao ud = UserDao.currentUserDao;
 	
 	private static User currentUser = new User();

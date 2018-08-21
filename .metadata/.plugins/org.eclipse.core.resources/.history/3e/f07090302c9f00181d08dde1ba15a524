@@ -1,5 +1,0 @@
-package com.revature.daos;
-
-public class CurrentUser {
-	private static U = new User;
-}

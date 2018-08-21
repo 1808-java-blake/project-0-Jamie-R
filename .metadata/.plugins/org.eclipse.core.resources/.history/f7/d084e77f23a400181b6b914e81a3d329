@@ -1,0 +1,11 @@
+package com.revature.beans;
+
+public class Transaction {
+	
+	private int transactionId;
+	private String transactionDate;
+	private int userId;
+	private double depositAmount;
+	private double withdrawalAmount;
+
+}

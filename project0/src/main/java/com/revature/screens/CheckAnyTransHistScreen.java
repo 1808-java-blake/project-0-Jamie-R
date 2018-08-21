@@ -1,11 +1,14 @@
 package com.revature.screens;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 import org.apache.log4j.Logger;
 
+import com.revature.beans.Transaction;
 import com.revature.beans.User;
+import com.revature.daos.TransactionDao;
 import com.revature.daos.UserDao;
 
 public class CheckAnyTransHistScreen implements Screen {
@@ -13,6 +16,7 @@ public class CheckAnyTransHistScreen implements Screen {
 	private Logger log = Logger.getRootLogger();
 	private Scanner scan = new Scanner(System.in);
 	private UserDao ud = UserDao.currentUserDao;
+	private TransactionDao td = TransactionDao.currentTransactionDao;
 	
 	@Override
 	public Screen start() {
@@ -30,10 +34,16 @@ public class CheckAnyTransHistScreen implements Screen {
 			User checking = ud.findByUsernameAndPassword(checkingUsername, checkingPassword);
 		
 			System.out.println("Selected user's transaction history:");
-			ArrayList<String> transactions = (ArrayList<String>) checking.getTransactions();
-			for (String item : transactions) {
-				System.out.println(item);
-			}
+			List<Transaction> userHistory = new ArrayList<Transaction>(td.findByUserId(checking.getUserId() ) ) ;
+			for (Transaction t : userHistory) {
+				String date = t.getTransactionDate();
+				int u_id = t.getUserId();
+				double deposit = t.getDepositAmount();
+				double withdrawal = t.getWithdrawalAmount();
+				
+				System.out.println(date + " User ID: " + u_id + " Amount deposited: " + deposit + ". Amount withdrawn: " + withdrawal + "." );
+			}	
+		}
 		
 			if (scan.nextLine().equals("end")) {
 				return new HomeScreen();
@@ -44,4 +54,3 @@ public class CheckAnyTransHistScreen implements Screen {
 		}
 	}
 	
-}

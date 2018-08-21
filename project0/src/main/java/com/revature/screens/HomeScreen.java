@@ -12,13 +12,13 @@ public class HomeScreen implements Screen {
 		User u = CurrentUser.getCurrentUser();
 		
 		System.out.println("Welcome to the Mos Eisley Credit Exchange! Where the rules are few and "
-				+ "the interest is criminal (technically legal, just to be clear).");
+				+ "the interest is criminal (not really. This is an extremely legal operation).");
 		System.out.println("Choose from the following options:");
 		System.out.println("Enter 1 to check credit balance (way lower than you might think it should be, by the way)");
-		System.out.println("Enter 2 to deposit your credits (please, give us more!)");
-		System.out.println("Enter 3 to withdraw your credits (or what's left of them, heh)");
-		System.out.println("Enter 4 to view your transaction history (that actually might be kind of a downer too)");
-		System.out.println("Enter 5 to log out (come back soon...or we'll come to you)");
+		System.out.println("Enter 2 to deposit your credits (please, we could use some more right now...)");
+		System.out.println("Enter 3 to withdraw your credits");
+		System.out.println("Enter 4 to view your transaction history");
+		System.out.println("Enter 5 to log out (come back soon...or we'll come to you!)");
 		
 		System.out.println("");
 		System.out.println("Admins only!");
